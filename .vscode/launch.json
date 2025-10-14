@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Asus/Documents/TRABALHO - EDA",
-      "program": "c:/Users/Asus/Documents/TRABALHO - EDA/build/Debug/outDebug",
+      "cwd": "c:/Users/Asus/Downloads/editado_EDA/editado_EDA/src",
+      "program": "c:/Users/Asus/Downloads/editado_EDA/editado_EDA/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

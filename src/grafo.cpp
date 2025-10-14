@@ -1,4 +1,43 @@
 #include "grafo.hpp"
+#include <fstream>
+#include <iostream>
+#include <cstdlib> // system()
+
+using namespace std;
+
+void gerarDOT(const string& entrada, const string& saida) {
+    ifstream in(entrada);
+    ofstream out(saida);
+
+    if (!in.is_open() || !out.is_open()) {
+        cerr << "Erro ao abrir arquivos.\n";
+        return;
+    }
+
+    string tipo;
+    in >> tipo;
+    bool direcionado = (tipo == "D");
+    out << (direcionado ? "digraph G {\n" : "graph G {\n");
+
+    string a, b;
+    while (in >> a >> b) {
+        out << "    \"" << a << "\" " 
+            << (direcionado ? "->" : "--") 
+            << " \"" << b << "\";\n";
+    }
+
+    out << "}\n";
+    cout << "Arquivo DOT gerado em: " << saida << endl;
+}
+
+void gerarImagem(const string& arquivoDOT, const string& imagemSaida) {
+    string comando = "dot -Tpng " + arquivoDOT + " -o " + imagemSaida;
+    int result = system(comando.c_str());
+    if (result == 0)
+        cout << "Imagem gerada em: " << imagemSaida << endl;
+    else
+        cerr << "Erro ao gerar imagem. Verifique o Graphviz.\n";
+}
 
 Grafo::Grafo(bool dir) : direcionado(dir) {}
 

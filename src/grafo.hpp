@@ -22,8 +22,11 @@ public:
     void verificarAdjacencia(const string& u, const string& v) const;
     void calcularGrau(const string& v) const;
     void encontrarComponentesConexos();
+
 private:
     void dfs(const string& v, map<string, bool>& visitado, vector<string>& componente);
 };
+    void gerarDOT(const std::string& entrada, const std::string& saida);
+    void gerarImagem(const std::string& arquivoDOT, const std::string& imagemSaida);
 
 #endif
