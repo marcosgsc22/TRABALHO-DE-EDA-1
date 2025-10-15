@@ -10,6 +10,7 @@ TRABALHO-EDA/
 │
 ├── output/
 │   └── grafo.dot             ← arquivo gerado para visualização (Graphviz)
+|   └── grafo.png             ← imagem gerada para visualização do grafo
 │
 ├── bin/
 │   └── projeto.exe           ← executável final (gerado após compilação)

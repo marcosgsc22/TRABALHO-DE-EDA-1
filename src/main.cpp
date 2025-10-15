@@ -15,7 +15,7 @@ int main() {
     string v1, v2;
 
     do {
-        cout << "------------------------MENU-----------------------\n";
+        cout << "------------------------REDE SOCIAL-----------------------\n";
         cout << "[1] Listar arestas existentes\n";
         cout << "[2] Listar todos os vizinhos de um vertice\n";
         cout << "[3] Grau de um vertice\n";
