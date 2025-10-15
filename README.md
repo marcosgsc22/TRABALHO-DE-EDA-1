@@ -19,7 +19,7 @@
     B C
     D E
     ```
-**OBS.:** use `D` na primeira linha para grafos dirigidos e `ND` para não-dirigidos.
+    **OBS.:** use `D` na primeira linha para grafos dirigidos e `ND` para não-dirigidos.
 
 2. **Compile o projeto (caso tenha feito alterações no código ou no grafo):** "g++ src/main.cpp src/grafo.cpp -o bin/projeto.exe"
 
