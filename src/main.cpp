@@ -19,7 +19,7 @@ int main() {
         cout << "[1] Listar arestas existentes\n";
         cout << "[2] Listar todos os vizinhos de um vertice\n";
         cout << "[3] Grau de um vertice\n";
-        cout << "[4] Verificar se adjacência entre dois vértices\n";
+        cout << "[4] Verificar se adjacencia entre dois vertices\n";
         cout << "[5] Exibir comunidades\n";
         cout << "[0] Sair\n";
         cout << "----------------------------------------------------\n";

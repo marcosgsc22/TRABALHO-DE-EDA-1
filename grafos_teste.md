@@ -69,10 +69,10 @@ Goku Uub
 ND
 HomemDeFerro HomemAranha
 HomemAranha DoutorEstranho
-HomemDeFerro CapitãoAmerica
-CapitãoAmerica ViúvaNegra
+HomemDeFerro CapitaoAmerica
+CapitaoAmerica ViuvaNegra
 Thor Hulk
-Hulk ViúvaNegra
+Hulk ViuvaNegra
 HomemFormiga Vespa
 Luke Leia
 Leia HanSolo
